@@ -1,13 +1,13 @@
-# LicensingViewController
+# LicensingVC
 
 ![Version](https://img.shields.io/github/tag/tiagomnh/LicensingViewController.svg)
-![Swift](https://img.shields.io/badge/Swift-2.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-2.1-orange.svg)
 ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
 ![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
-LicensingViewController is a `UIViewController` subclass with a simple API for displaying licensing information.
+LicensingVC is a `UIViewController` subclass with a simple API for displaying licensing information.
 
-Written in Swift 2.0. Check tag `0.1.0` for a Swift 1.2 compatible version.
+Written in Swift 2.1.
 
 ## Usage
 
@@ -43,15 +43,15 @@ licensingViewController.items = [alamofireItem, caniveteItem, kingfisherItem]
 ## Requirements
 
 - iOS 8.0+
-- Xcode 6.3 (Swift 1.2)
+- Xcode 7.1 (Swift 2.1)
 
 ## Installation
 
-LicensingViewController is available through [Carthage](https://github.com/Carthage/Carthage). To install
+LicensingVC is available through [Carthage](https://github.com/Carthage/Carthage). To install
 it, simply add the following line to your Cartfile:
 
 ```ruby
-github "tiagomnh/LicensingViewController"
+github "eeschimosu/LicensingViewController"
 ```
 
 Then run `carthage update`.
@@ -59,4 +59,4 @@ Then run `carthage update`.
 
 ## License
 
-LicensingViewController is available under the MIT license. See the LICENSE file for more info.
+LicensingVC is available under the MIT license. See the LICENSE file for more info.
